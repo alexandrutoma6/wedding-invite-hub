@@ -57,6 +57,16 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        wedding: {
+          gold: "hsl(var(--wedding-gold))",
+          ivory: "hsl(var(--wedding-ivory))",
+          cream: "hsl(var(--wedding-cream))",
+          charcoal: "hsl(var(--wedding-charcoal))",
+        },
+      },
+      fontFamily: {
+        serif: ["Cormorant Garamond", "Georgia", "serif"],
+        sans: ["Montserrat", "system-ui", "sans-serif"],
       },
       borderRadius: {
         lg: "var(--radius)",
