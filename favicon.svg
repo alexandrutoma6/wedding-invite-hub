@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Background circle -->
+  <circle cx="50" cy="50" r="48" fill="#D4AF37" opacity="0.1"/>
+  
+  <!-- Two overlapping rings representing wedding bands -->
+  <g stroke="#D4AF37" stroke-width="3" fill="none">
+    <!-- Left ring -->
+    <circle cx="38" cy="50" r="15"/>
+    <!-- Right ring -->
+    <circle cx="62" cy="50" r="15"/>
+  </g>
+  
+  <!-- Small decorative hearts -->
+  <g fill="#D4AF37" opacity="0.8">
+    <!-- Top heart -->
+    <path d="M50 35 L48 33 Q45 30 42 33 Q39 36 42 39 L50 47 L58 39 Q61 36 58 33 Q55 30 52 33 Z"/>
+  </g>
+  
+  <!-- Decorative flourish -->
+  <g fill="#D4AF37" opacity="0.6">
+    <circle cx="50" cy="70" r="1.5"/>
+    <circle cx="45" cy="72" r="1"/>
+    <circle cx="55" cy="72" r="1"/>
+  </g>
+</svg>
