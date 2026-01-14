@@ -18,17 +18,17 @@ const InvitationText = () => {
           </div>
           
           <h2 className="font-serif text-3xl md:text-4xl text-wedding-charcoal mb-8">
-            Together with their families
+            Împreună cu cei dragi
           </h2>
           
           <p className="text-wedding-charcoal/80 text-lg md:text-xl leading-relaxed mb-8 font-light">
-            We joyfully invite you to celebrate the beginning of our forever. 
-            Your presence would make our special day complete as we exchange vows 
-            and begin this beautiful journey together.
+            Am decis să facem pasul cel mare și vrem să sărbătorim alături de cei dragi.
+Ne bucurăm să vă avem aproape în ziua noastră specială și abia așteptăm să petrecem împreună!
+Vă așteptăm cu drag!
           </p>
           
           <p className="text-wedding-charcoal/70 text-base md:text-lg italic">
-            "Two souls, one heart, infinite love"
+           {/* todo */}
           </p>
           
           {/* Decorative flourish */}

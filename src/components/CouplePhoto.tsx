@@ -17,7 +17,7 @@ const CouplePhoto = () => {
           {/* Photo container */}
           <div className="relative overflow-hidden bg-wedding-ivory">
             <img
-              src="https://images.unsplash.com/photo-1522673607200-164d1b6ce486?w=1200&q=80"
+              src="/photo2.jpeg"
               alt="Couple photo"
               className="w-full h-[400px] md:h-[500px] lg:h-[600px] object-cover"
             />
@@ -35,7 +35,7 @@ const CouplePhoto = () => {
           viewport={{ once: true }}
           transition={{ delay: 0.3, duration: 0.6 }}
         >
-          Our love story continues...
+          Povestea noastră de iubire continuă...
         </motion.p>
       </div>
     </section>

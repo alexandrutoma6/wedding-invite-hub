@@ -7,7 +7,7 @@ const HeroSection = () => {
       <div 
         className="absolute inset-0 bg-gradient-to-b from-wedding-gold/20 via-wedding-cream to-wedding-ivory"
         style={{
-          backgroundImage: `url('https://images.unsplash.com/photo-1519741497674-611481863552?w=1920&q=80')`,
+          backgroundImage: `url('/photo1.jpeg')`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
         }}
@@ -38,7 +38,7 @@ const HeroSection = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.8, duration: 1 }}
         >
-          Sarah & James
+          Alex și Andreea
         </motion.h1>
         
         <motion.div 
@@ -54,7 +54,7 @@ const HeroSection = () => {
           animate={{ opacity: 1 }}
           transition={{ delay: 1.5, duration: 1 }}
         >
-          June 15, 2025
+          August 9, 2026
         </motion.p>
       </motion.div>
       
