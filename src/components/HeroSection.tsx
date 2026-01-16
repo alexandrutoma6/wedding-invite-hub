@@ -24,7 +24,7 @@ const HeroSection = () => {
         transition={{ duration: 1.2, ease: "easeOut" }}
       >
         <motion.p 
-          className="text-wedding-ivory/90 uppercase tracking-[0.3em] text-sm md:text-base mb-6"
+          className="text-wedding-ivory/90 uppercase tracking-[0.3em] text-sm md:text-base mb-8"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.5, duration: 1 }}
@@ -33,7 +33,7 @@ const HeroSection = () => {
         </motion.p>
         
         <motion.h1 
-          className="font-serif text-5xl md:text-7xl lg:text-8xl text-wedding-ivory mb-4"
+          className="font-serif text-5xl md:text-7xl lg:text-8xl text-wedding-ivory mb-12 md:mb-4"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.8, duration: 1 }}
@@ -41,12 +41,12 @@ const HeroSection = () => {
           Alex și Andreea
         </motion.h1>
         
-        <motion.div 
+        {/* <motion.div 
           className="w-24 h-px bg-wedding-gold mx-auto my-8"
           initial={{ scaleX: 0 }}
           animate={{ scaleX: 1 }}
           transition={{ delay: 1.2, duration: 0.8 }}
-        />
+        /> */}
         
         <motion.p 
           className="text-wedding-ivory/80 text-lg md:text-xl font-light"

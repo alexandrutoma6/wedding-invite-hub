@@ -35,7 +35,11 @@ const CouplePhoto = () => {
           viewport={{ once: true }}
           transition={{ delay: 0.3, duration: 0.6 }}
         >
-          Povestea noastră de iubire continuă...
+          <p className="text-wedding-charcoal/70 text-base md:text-lg italic">
+           „Dragostea este îndelung răbdătoare, este plină de bunătate… Dragostea nu va pieri niciodată.”
+          <br />
+          1 Corinteni 13:4,8
+          </p>
         </motion.p>
       </div>
     </section>

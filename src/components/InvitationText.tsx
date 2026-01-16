@@ -11,7 +11,7 @@ const InvitationText = () => {
           transition={{ duration: 0.8 }}
         >
           {/* Decorative flourish */}
-          <div className="flex items-center justify-center gap-4 mb-12">
+          <div className="flex items-center justify-center gap-4 mb-6">
             <div className="h-px w-16 bg-wedding-gold/50" />
             <span className="text-wedding-gold text-2xl">✦</span>
             <div className="h-px w-16 bg-wedding-gold/50" />
@@ -21,15 +21,13 @@ const InvitationText = () => {
             Împreună cu cei dragi
           </h2>
           
-          <p className="text-wedding-charcoal/80 text-lg md:text-xl leading-relaxed mb-8 font-light">
+          <p className="text-wedding-charcoal/80 text-lg md:text-xl leading-relaxed font-light">
             Am decis să facem pasul cel mare și vrem să sărbătorim alături de cei dragi.
 Ne bucurăm să vă avem aproape în ziua noastră specială și abia așteptăm să petrecem împreună!
 Vă așteptăm cu drag!
           </p>
           
-          <p className="text-wedding-charcoal/70 text-base md:text-lg italic">
-           {/* todo */}
-          </p>
+          
           
           {/* Decorative flourish */}
           <div className="flex items-center justify-center gap-4 mt-12">
