@@ -5,12 +5,12 @@ const ContactSection = () => {
   const contacts = [
     {
       name: "Alex",
-      phoneNumber: "+0758320009",
+      phoneNumber: "0758320009",
       displayNumber: "+0758 320 009",
     },
     {
       name: "Andreea",
-      phoneNumber: "+0787418322",
+      phoneNumber: "0787418322",
       displayNumber: "+0787 418 322",
     },
   ];
