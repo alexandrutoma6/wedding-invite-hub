@@ -4,7 +4,7 @@ import { Calendar, Clock, MapPin, Shirt, ExternalLink, X } from "lucide-react";
 
 const EventDetails = () => {
   // Change this to false when you want to reveal the ceremony and time details
-  const ceremonyBlurred = true;
+  const ceremonyBlurred = false;
   const [showDressCodeGallery, setShowDressCodeGallery] = useState(false);
   
   const dressCodePhotos = [
@@ -31,13 +31,13 @@ const EventDetails = () => {
   const blurredDetails = [
     {
       icon: Calendar,
-      label: "Religious Ceremony",
-      value: "Details coming soon",
+      label: "Ceremonie religioasă",
+      value: "17:00",
     },
     {
       icon: Clock,
-      label: "Starting Hours",
-      value: "To be announced",
+      label: "Petrecere la restaurant",
+      value: "18:30",
     },
   ];
   
