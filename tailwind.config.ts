@@ -59,6 +59,8 @@ export default {
         },
         wedding: {
           gold: "hsl(var(--wedding-gold))",
+          sage: "hsl(var(--wedding-sage))",
+          "sage-light": "hsl(var(--wedding-sage-light))",
           ivory: "hsl(var(--wedding-ivory))",
           cream: "hsl(var(--wedding-cream))",
           charcoal: "hsl(var(--wedding-charcoal))",
